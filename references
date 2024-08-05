@@ -1,0 +1,7 @@
+
+https://learnopencv.com/getting-started-with-opencv/
+
+
+#add configuration to the codespace to be able to install  packages such as libgl 
+sudo sudo apt-get update
+sudo apt install libgl1
