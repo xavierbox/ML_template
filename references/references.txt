@@ -1,0 +1,16 @@
+
+https://learnopencv.com/getting-started-with-opencv/
+
+pinns
+
+https://nanohub.org/resources/35049/supportingdocs
+https://github.com/benmoseley/DLSC-2023/blob/main/lecture-5/PINN%20demo.ipynb
+references_lib
+
+basic data science book 
+https://www.statlearning.com/resources-python
+
+
+#add configuration to the codespace to be able to install  packages such as libgl 
+sudo sudo apt-get update
+sudo apt install libgl1
