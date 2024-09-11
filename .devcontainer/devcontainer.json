@@ -7,7 +7,7 @@
 	"features": {
 		"ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {},
 		"ghcr.io/wxw-matt/devcontainer-features/command_runner:0": {}
-	}
+	},
 	
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -16,7 +16,13 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	//"postCreateCommand": "pip3 install --user -r requirements.txt"
+	//"postCreateCommand": "sudo apt-get update  && pip3 install --user -r requirements.txt && sudo apt-get install libgl1" 
+	"postCreateCommand": "sudo apt-get update  && pip install --upgrade pip && pip install virtualenv" 
+
+	
+
+	
+	
 
 	// Configure tool-specific properties.
 	// "customizations": {},
