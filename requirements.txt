@@ -1,4 +1,6 @@
 #https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/setting-up-your-python-project-for-codespaces
+# sudo apt-get update 
+# sudo apt-get install libgl1
 
 pytest==8.2.2
 pytest-cov==5.0.0
