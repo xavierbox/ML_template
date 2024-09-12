@@ -18,6 +18,7 @@ torch==2.4.0
 torchaudio==2.4.0
 torchvision==0.19.0
 opencv-contrib-python==4.10.0.84
+fastai
 
 numpy
 #==1.23.5
