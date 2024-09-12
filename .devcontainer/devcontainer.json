@@ -6,7 +6,11 @@
 	"image": "mcr.microsoft.com/devcontainers/python:1-3.9-bookworm",
 	"features": {
 		"ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {},
-		"ghcr.io/wxw-matt/devcontainer-features/command_runner:0": {}
+		"ghcr.io/wxw-matt/devcontainer-features/command_runner:0": {},
+		"ghcr.io/devcontainers/features/nvidia-cuda:1": {
+			"installCudnn": true
+		  }
+		
 	},
 	
 	// Features to add to the dev container. More info: https://containers.dev/features.
