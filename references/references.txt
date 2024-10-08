@@ -1,4 +1,9 @@
 
+# generate a pylint config file 
+pylint --disable=bare-except,invalid-name --class-rgx='[A-Z][a-z]+' --generate-rcfile -encoding utf8  >> pylintrc
+
+
+opencv 
 https://learnopencv.com/getting-started-with-opencv/
 
 pinns
